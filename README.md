@@ -1,20 +1,20 @@
 ## Description 🏠                                                                                                                  
                                                                                                                                    
-AirBnB is a complete web application, integrating database storage, a back-end AA                                                  
-PI, and front-end interfacing in a clone of AirBnB.                                                                                
+AirBnB is a complete web application, integrating database storage, a back-end                                                   
+and front-end interfacing in a clone of AirBnB.                                                                                
                                                                                                                                    
 The project currently only implements the back-end console.                                                                        
                                                                                                                                    
 ## Classes 🆑                                                                                                                      
                                                                                                                                    
-HolbertonBnB utilizes the following classes:                                                                                       
+AirBnB utilizes the following classes:                                                                                       
                                                                                                                                    
 ## Storage 🛄                                                                                                                      
                                                                                                                                    
 The above classes are handled by the abstracted storage engine defined in the Fii                                                  
 leStorage class.                                                                                                                   
                                                                                                                                    
-Every time the backend is initialized, HolbertonBnB instantiates an instance of                                                    
+Every time the backend is initialized, AirBnB instantiates an instance of                                                    
 FileStorage called storage. The storage object is loaded/re-loaded from any class                                                  
 s instances stored in the JSON file file.json. As class instances are created, uu                                                  
 pdated, or deleted, the storage object is used to register corresponding changess                                                  
@@ -22,13 +22,13 @@ pdated, or deleted, the storage object is used to register corresponding changes
 
 ## Console 💻                                                                                                                      
                                                                                                                                    
-The console is a command line interpreter that permits management of the backendd                                                  
- of HolbertonBnB. It can be used to handle and manipulate all classes utilized bb                                                  
+The console is a command line interpreter that permits management of the backend                                                  
+ of AirBnB. It can be used to handle and manipulate all classes utilized bb                                                  
 y the application (achieved by calls on the storage object defined above).                                                         
                                                                                                                                    
 #### Using the Console                                                                                                             
                                                                                                                                    
-The HolbertonBnB console can be run both interactively and non-interactively. Too                                                  
+The AirBnB console can be run both interactively and non-interactively. Too                                                  
  run the console in non-interactive mode, pipe any command(s) into an execution                                                    
 of the file console.py at the command line.   
 
@@ -47,7 +47,7 @@ $ echo "help" | ./console.py
     $                                                                                                                              
                                                                                                                                    
                                                                                                                                    
-Alternatively, to use the HolbertonBnB console in interactive mode, run the filee                                                  
+Alternatively, to use the AirBnB console in interactive mode, run the filee                                                  
  console.py by itself:    
 
 `$ ./console.py`                                                                                                                   
