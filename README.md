@@ -1,6 +1,6 @@
 ## Description 🏠                                                                                                                  
                                                                                                                                    
-AirBnB is a complete web application, integrating database storage, a back-end                                                   
+AirBnB is a complete web application, integrating database storage, a back-end 
 and front-end interfacing in a clone of AirBnB.                                                                                
                                                                                                                                    
 The project currently only implements the back-end console.                                                                        
@@ -11,25 +11,24 @@ AirBnB utilizes the following classes:
                                                                                                                                    
 ## Storage 🛄                                                                                                                      
                                                                                                                                    
-The above classes are handled by the abstracted storage engine defined in the Fii                                                  
-leStorage class.                                                                                                                   
+The above classes are handled by the abstracted storage engine defined in the FileStorage class.                                                                                                                   
                                                                                                                                    
 Every time the backend is initialized, AirBnB instantiates an instance of                                                    
 FileStorage called storage. The storage object is loaded/re-loaded from any class                                                  
-s instances stored in the JSON file file.json. As class instances are created, uu                                                  
-pdated, or deleted, the storage object is used to register corresponding changess                                                  
- in the file.json. 
+instances stored in the JSON file file.json. As class instances are created, updated, or
+deleted, the storage object is used to register corresponding changess                                                  
+in the file.json. 
 
 ## Console 💻                                                                                                                      
                                                                                                                                    
 The console is a command line interpreter that permits management of the backend                                                  
- of AirBnB. It can be used to handle and manipulate all classes utilized bb                                                  
-y the application (achieved by calls on the storage object defined above).                                                         
+of AirBnB. It can be used to handle and manipulate all classes utilized  the application
+(achieved by calls on the storage object defined above).                                                         
                                                                                                                                    
 #### Using the Console                                                                                                             
                                                                                                                                    
-The AirBnB console can be run both interactively and non-interactively. Too                                                  
- run the console in non-interactive mode, pipe any command(s) into an execution                                                    
+The AirBnB console can be run both interactively and non-interactively. To                                                  
+run the console in non-interactive mode, pipe any command(s) into an execution                                                    
 of the file console.py at the command line.   
 
 $ echo "help" | ./console.py                                                                                                   
@@ -47,8 +46,8 @@ $ echo "help" | ./console.py
     $                                                                                                                              
                                                                                                                                    
                                                                                                                                    
-Alternatively, to use the AirBnB console in interactive mode, run the filee                                                  
- console.py by itself:    
+Alternatively, to use the AirBnB console in interactive mode, run the file                                                  
+console.py by itself:    
 
 `$ ./console.py`                                                                                                                   
                                                                                                                                    
@@ -90,8 +89,7 @@ The AirBnB console supports the following commands:
                                                                                                                                    
                                                                                                                                    
                                                                                                                                    
-Creates a new instance of a given class. The class' ID is printed and the instann                                                  
-ce is saved to the file file.json.  
+Creates a new instance of a given class. The class' ID is printed and the instannce is saved to the file file.json.  
 
                                                                                                                                   
     $ ./console.py                                                                                                                 
